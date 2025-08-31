@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monarc Nexus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="overlay"></div>
+
+
+<div style="text-align: center; margin-top: 30px;">
+  <img src="img/single_BlacknOrange_logo-removebg-preview.png" style="max-width: 350px; width: 30%; height: auto;" />
+</div>
+
+<section class="section" id="send-info">
+  <h2>Send Project Info</h2>
+  <div class="container">
+    <input type="text" id="phoneNumber" placeholder="Enter phone number (e.g. 7874777470)" />
+    <button onclick="sendMessage()">Send Message</button>
+    <button onclick="copyMessage()" style="background: #444;">Copy Message</button>
+    <button onclick="downloadBrochure()" class="brochure-button">
+      📥 Download Brochure (PDF)
+    </button>
+  </div>
+</section>
+
+<section class="section" id="overview">
+  <h2>Company Overview</h2>
+  <div class="info-box">
+    <h3>Mission & Vision</h3>
+    <p><strong>Mission:</strong> To deliver high-quality construction solutions that exceed expectations.<br>
+      <strong>Vision:</strong> To be a trusted leader in the real estate industry with innovative designs and reliable execution.</p>
+    <p><strong>Years of Experience:</strong> 15+ years in construction and real estate development.</p>
+    <p><strong>Licenses / Certifications:</strong> ISO 9001:2015 Certified, RERA Registered.</p>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h2>Ongoing & Completed Projects</h2>
+  <div class="info-box">
+    <ul class="project-list">
+      <li class="statusOngoing">
+        <strong>Project:</strong> Monarc Nexus<br>
+        <strong>Type:</strong> Residential + Commercial<br>
+        <strong>Stories:</strong> 14<br>
+        <strong>Status:</strong> Ongoing<br>
+        <strong>Year:</strong> 2024<br>
+        <strong>Location:</strong> Ahmedabad - Zundal
+        <p><a href="https://maps.app.goo.gl/fH46HmRUPCdML8xN8" style="color:#00ffff;">View on Google Maps</a></p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7731.7791407323075!2d72.57986877573104!3d23.139587789457558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e830053dfa877%3A0x87f251259ec4bbd5!2sMonarc%20Nexus!5e1!3m2!1sen!2sin!4v1745659936992!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </li>
+      <li class="statusCompleted">
+        <strong>Project:</strong> Monarc Clans<br>
+        <strong>Type:</strong> Residential<br>
+        <strong>Stories:</strong> 14<br>
+        <strong>Status:</strong> Completed<br>
+        <strong>Year:</strong> 2023<br>
+        <strong>Location:</strong> Ahmedabad - Zundal
+        <p><a href="https://maps.app.goo.gl/ANkmNWs1jAWsW2xX9" style="color:#00ffff;">View on Google Maps</a></p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.7424447253948!2d72.57151917564268!3d23.13393017909584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e837c598f64bd%3A0x3440e358a1c11f2!2sMonarc%20Clans!5e1!3m2!1sen!2sin!4v1746356077118!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </li>
+      <li class="statusCompleted">
+        <strong>Project:</strong> Monarc Crystal<br>
+        <strong>Type:</strong> Residential + Commercial<br>
+        <strong>Stories:</strong> 7<br>
+        <strong>Status:</strong> Completed<br>
+        <strong>Year:</strong> 2018<br>
+        <strong>Location:</strong> Ahmedabad - New Chandkheda
+        <p><a href="https://maps.app.goo.gl/HZXkSHXYQznYgoKC7" style="color:#00ffff;">View on Google Maps</a></p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.0960082395063!2d72.56758258336016!3d23.12199802522593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e830005a2ff4f%3A0xdcf5eac13d72a9c2!2sMonarc%20Crystal!5e1!3m2!1sen!2sin!4v1746356141915!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </li>
+      <li class="statusCompleted">
+        <strong>Project:</strong> Monarc County<br>
+        <strong>Type:</strong> Residential<br>
+        <strong>Stories:</strong> 7<br>
+        <strong>Status:</strong> Completed<br>
+        <strong>Year:</strong> 2017<br>
+        <strong>Location:</strong> Ahmedabad - New Chandkheda
+        <p><a href="https://maps.app.goo.gl/CgWbaV6zje83LfYX7" style="color:#00ffff;">View on Google Maps</a></p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.098370629349!2d72.57024107564227!3d23.12191827910427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8259925c5acd%3A0xe71a9be7db586d63!2sMonarc%20County!5e1!3m2!1sen!2sin!4v1746356176497!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </li>
+    </ul>
+
+    <p>Visit our gallery for more photos and details.</p>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Information</h2>
+  <div class="info-box">
+    <p><strong>Email:</strong>
+      2024shreekrishnadevelopers
+      @gmail.com<br></p>
+    <p><strong>Phone:</strong> +91 78 74 77 74 70<br></p>
+  </div>
+</section>
+
+<section class="section" id="legal">
+  <h2>Legal & Compliance Info</h2>
+  <div class="info-box">
+    <p><strong>GSTIN: </strong> 24AFIFS0056H1Z4<br>
+      <strong>RERA Registration No.:</strong>
+      PR/GJ/GANDHINAGAR
+      /GANDHINAGAR
+      /Gandhinagar Municipal Corporation
+      /MAA15095/150425/311229</p>
+  </div>
+</section>
+
