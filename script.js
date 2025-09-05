@@ -1,6 +1,18 @@
 // script.js
 
-const message = `Hello,\nI am interested in your project.Please share more info.`;
+const message = `🏢 Monarc Nexus – Premium 14-Story Project  
+
+📌 Project Highlights  
+• Residential + Commercial Spaces  
+• Prime 3-side road connectivity  
+
+📄 Brochure  
+https://drive.google.com/file/d/1dg7O0S5iR6bMYz27tjxADo2Rc9bAcTnl/view?usp=drivesdk  
+
+📍 Location  
+https://maps.app.goo.gl/MgcsscnUBq8jWr2L6  
+
+💬 Would you like me to share full details or schedule a quick site visit?`;
 
 
 function sendMessage() {
@@ -9,7 +21,7 @@ function sendMessage() {
     alert("Please enter a valid 10-digit phone number.");
     return;
   }
-  const fullNumber = '91' + 7874777470;
+  const fullNumber = '91' + phone;
   const url = `https://wa.me/${fullNumber}?text=${encodeURIComponent(message)}`;
   if (navigator.vibrate) navigator.vibrate(100);
   window.open(url, "_blank");
