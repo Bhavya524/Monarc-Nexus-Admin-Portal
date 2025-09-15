@@ -7,10 +7,10 @@ const message = `🏢 Monarc Nexus – Premium 14-Story Project
 • Prime 3-side road connectivity  
 
 📄 Brochure  
-https://drive.google.com/file/d/1dg7O0S5iR6bMYz27tjxADo2Rc9bAcTnl/view?usp=drivesdk  
+https://drive.google.com/file/d/1oiPoEB0zeJSd-ZqvCixrvPQ4xXn10oCN/view?usp=drive_link 
 
 📍 Location  
-https://maps.app.goo.gl/MgcsscnUBq8jWr2L6  
+https://maps.app.goo.gl/MgcsscnUBq8jWr2L6
 
 💬 Would you like me to share full details or schedule a quick site visit?`;
 
